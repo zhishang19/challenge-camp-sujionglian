@@ -1,0 +1,29 @@
+D2 Clean Log
+==================================================
+[USER_BEHAVIOR] total=6
+[CLEAN] ub[0] | text modified | uid=U001
+[TIME] ub[0] | 2026/6/2 09:15 -> 2026-06-02 09:15:00
+[OK] ub[0] | uid=U001 action=chat
+[CLEAN] ub[1] | text modified | uid=U001
+[TIME] ub[1] | 2026-06-02T09:16:00 -> 2026-06-02 09:16:00
+[OK] ub[1] | uid=U001 action=chat
+[CLEAN] ub[2] | text modified | uid=U002
+[TIME] ub[2] | 2026年6月2日 10:00 -> 2026-06-02 10:00:00
+[OK] ub[2] | uid=U002 action=click
+[CLEAN] ub[3] | text modified | uid=U001
+[TIME] ub[3] | 2026/6/2 09:15 -> 2026-06-02 09:15:00
+[DUP] ub[3] | duplicate | uid=U001 action=chat
+[CLEAN] ub[4] | text modified | uid=U003
+[OK] ub[4] | uid=U003 action=chat
+[CLEAN] ub[5] | text modified | uid=U004
+[OK] ub[5] | uid=U004 action=voice
+[TOOL_RESULT] total=3
+[CLEAN] tr[0] | output modified
+[OK] tr[0] | trace_id=T-1001 tool=file_export
+[CLEAN] tr[1] | output modified
+[OK] tr[1] | trace_id=T-1002 tool=file_export
+[CLEAN] tr[2] | output modified
+[OK] tr[2] | trace_id=T-1003 tool=web_search
+
+[SUMMARY] input=9 output=8 records
+[STATS] OK=8 WARN=0 REJECT=0 DROP=0 DUP=1
