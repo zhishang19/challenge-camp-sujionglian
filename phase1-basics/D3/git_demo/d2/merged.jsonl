@@ -1,0 +1,8 @@
+{"source": "user", "uid": "U001", "timestamp": "2026-06-02 09:15:00", "action": "chat", "content": "帮我把 文档 导出成 PDF ！", "flags": []}
+{"source": "user", "uid": "U001", "timestamp": "2026-06-02 09:16:00", "action": "chat", "content": "不是 word 是 wps", "flags": []}
+{"source": "user", "uid": "U002", "timestamp": "2026-06-02 10:00:00", "action": "click", "content": "设置->隐私->清除缓存", "flags": []}
+{"source": "user", "uid": "U003", "timestamp": "1970-01-01 00:00:00", "action": "chat", "content": "能不能别每次弹窗啊", "flags": []}
+{"source": "user", "uid": "U004", "timestamp": "2026-06-02 14:30:00", "action": "voice", "content": "然后帮我查一下麒麟系统怎么装驱动", "flags": []}
+{"source": "tool", "uid": "SYSTEM", "timestamp": "1970-01-01 00:00:00", "action": "export", "content": "OK: exported to /home/user/报告_final.pdf", "flags": ["trace:T-1001"]}
+{"source": "tool", "uid": "SYSTEM", "timestamp": "1970-01-01 00:00:00", "action": "export", "content": "ERROR: path not found: /tmp/？.docx", "flags": ["trace:T-1002"]}
+{"source": "tool", "uid": "SYSTEM", "timestamp": "1970-01-01 00:00:00", "action": "search", "content": "麒麟 驱动安装：1) 打开设置中心 2) 点更新 3) reboot！", "flags": ["trace:T-1003"]}
