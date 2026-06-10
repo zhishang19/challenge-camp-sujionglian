@@ -1,0 +1,3 @@
+# Phase 2 Consolidate — 依赖清单
+# consolidate.py 和 pipeline/run.py 均使用 Python 标准库，无外部依赖。
+# Python >= 3.7 即可运行。
