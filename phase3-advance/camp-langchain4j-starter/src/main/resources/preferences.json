@@ -1,0 +1,57 @@
+[
+  {
+    "uid": "u001",
+    "pref_key": "unknown",
+    "pref_value": "输出详细版，带数据表格",
+    "type": "explicit",
+    "version": "v1",
+    "source": "chat:S100",
+    "time": "2026-06-04 09:01:00",
+    "ttl": "long",
+    "confidence": "0.92"
+  },
+  {
+    "uid": "U001",
+    "pref_key": "unknown",
+    "pref_value": "输出简洁版",
+    "type": "explicit",
+    "version": "v1",
+    "source": "chat:S100",
+    "time": "2026-06-04 09:00:00",
+    "ttl": "long",
+    "confidence": "0.68"
+  },
+  {
+    "uid": "u002",
+    "pref_key": "unknown",
+    "pref_value": "默认允许 emoji",
+    "type": "explicit",
+    "version": "v2",
+    "source": "config",
+    "time": "2026-06-01",
+    "ttl": "default",
+    "confidence": "0.40"
+  },
+  {
+    "uid": "u005",
+    "pref_key": "会议纪要长期使用三段式",
+    "pref_value": "背景、决定、待办",
+    "type": "explicit",
+    "version": "v1",
+    "source": "chat:S104",
+    "time": "2026-06-04T17:20:00+08:00",
+    "ttl": "long",
+    "confidence": "0.95"
+  },
+  {
+    "uid": "u007",
+    "pref_key": "unknown",
+    "pref_value": "回答需要祥细解释，每一步写原因。",
+    "type": "explicit",
+    "version": "v2",
+    "source": "ticket:K-78",
+    "time": "2026-06-05 09:10",
+    "ttl": "long",
+    "confidence": "0.82"
+  }
+]

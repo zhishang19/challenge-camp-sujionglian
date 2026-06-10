@@ -1,0 +1,57 @@
+# D08 LangGraph 3-Node Workflow — 输入输出样例
+
+## 知识源
+本人 D4 清洗结果：phase2-consolidate/knowledge_items.json（K001, K002）
+
+---
+
+## 样例 1：知识库查询（同义词扩展）
+
+输入：`怎么离线安装.deb软件包？`
+
+流程：
+  Node1 [classify] → 意图=knowledge_query, 无PII
+  Node2 [retrieve] → bigram搜索 + synonym("deb"→"dpkg") → 命中 K001(score=0.071)
+  Node3 [output]  → 格式化返回知识条目正文
+
+输出：
+```
+[K001] 离线安装 .deb 软件包（办公场景） 麒麟 安装 deb
+       步骤: cd到deb所在目录 → sudo dpkg -i xxx.deb
+       → sudo apt install -f (如有依赖问题)
+```
+
+---
+
+## 样例 2：知识库查询（同义词扩展）
+
+输入：`怎么写月报摘要？`
+
+流程：
+  Node1 [classify] → 意图=knowledge_query, 无PII
+  Node2 [retrieve] → synonym("月报"→"会议纪要") → 命中 K002(score=0.061)
+  Node3 [output]  → 格式化返回会议纪要模板
+
+输出：
+```
+[K002] 会议纪要自动生成模板 办公 模板
+       bullet列表, 不超过200字, 不要emoji
+```
+
+---
+
+## 样例 3：PII 过滤 + 知识查询
+
+输入：`liubei@shu.com 帮我把文档导出成PDF`
+
+流程：
+  Node1 [classify] → PII检测到 email: liubei@shu.com → 脱敏为[EMAIL]
+                    意图=knowledge_query
+  Node2 [retrieve] → 搜索 "帮我把文档导出成PDF"... (当前未命中)
+  Node3 [output]  → 标注PII已过滤
+
+输出：
+```
+PII: Filtered (1 patterns) — email redacted
+未找到相关知识条目。
+```
