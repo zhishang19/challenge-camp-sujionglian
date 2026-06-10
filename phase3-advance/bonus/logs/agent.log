@@ -1,0 +1,40 @@
+2026-06-09 19:34:11,072 [INFO] IndustrialAgent initializing...
+2026-06-09 19:34:11,074 [INFO] IndustrialAgent ready: 2 knowledge, 0 users
+2026-06-09 19:34:11,074 [INFO] [u001] QUERY: 麒麟系统如何更新驱动？
+2026-06-09 19:34:11,074 [INFO] [u001] QUERY: 怎么写月报摘要？
+2026-06-09 19:34:11,075 [INFO] [u003] QUERY: 怎么离线安装.deb软件包？
+2026-06-09 19:34:11,075 [INFO] [u001] QUERY: 记住我喜欢输出详细版带表格
+2026-06-09 19:34:11,076 [INFO] [u001] QUERY: 麒麟系统如何更新驱动？
+2026-06-09 19:34:11,076 [INFO] [u004] QUERY: liubei@shu.com 别记下这个邮箱
+2026-06-09 19:34:11,076 [INFO] [u004] PII detected: ['email']
+2026-06-09 19:34:11,076 [INFO] [u004] FORGET intent
+2026-06-09 23:34:42,079 [INFO] IndustrialAgent initializing...
+2026-06-09 23:34:42,081 [INFO] IndustrialAgent ready: 2 knowledge, 0 users
+2026-06-09 23:34:42,081 [INFO] [u001] QUERY: 麒麟系统如何更新驱动？
+2026-06-09 23:34:42,081 [INFO] [u001] QUERY: 怎么写月报摘要？
+2026-06-09 23:34:42,081 [INFO] [u003] QUERY: 怎么离线安装.deb软件包？
+2026-06-09 23:34:42,081 [INFO] [u001] QUERY: 记住我喜欢输出详细版带表格
+2026-06-09 23:34:42,082 [INFO] [u001] QUERY: 麒麟系统如何更新驱动？
+2026-06-09 23:34:42,082 [INFO] [u004] QUERY: liubei@shu.com 别记下这个邮箱
+2026-06-09 23:34:42,082 [INFO] [u004] PII detected: ['email']
+2026-06-09 23:34:42,082 [INFO] [u004] FORGET intent
+2026-06-10 08:38:18,430 [INFO] IndustrialAgent initializing...
+2026-06-10 08:38:18,513 [INFO] IndustrialAgent ready: 1500 knowledge, 0 users
+2026-06-10 08:38:18,514 [INFO] [u001] QUERY: 麒麟系统如何更新驱动？
+2026-06-10 08:38:18,533 [INFO] [u001] QUERY: 怎么写月报摘要？
+2026-06-10 08:38:18,550 [INFO] [u003] QUERY: 怎么离线安装.deb软件包？
+2026-06-10 08:38:18,568 [INFO] [u001] QUERY: 记住我喜欢输出详细版带表格
+2026-06-10 08:38:18,589 [INFO] [u001] QUERY: 麒麟系统如何更新驱动？
+2026-06-10 08:38:18,608 [INFO] [u004] QUERY: liubei@shu.com 别记下这个邮箱
+2026-06-10 08:38:18,609 [INFO] [u004] PII detected: ['email']
+2026-06-10 08:38:18,609 [INFO] [u004] FORGET intent
+2026-06-10 08:43:26,281 [INFO] IndustrialAgent initializing...
+2026-06-10 08:43:26,364 [INFO] IndustrialAgent ready: 1500 knowledge, 0 users
+2026-06-10 08:43:26,364 [INFO] [u001] QUERY: 麒麟系统如何更新驱动？
+2026-06-10 08:43:26,381 [INFO] [u001] QUERY: 怎么写月报摘要？
+2026-06-10 08:43:26,400 [INFO] [u003] QUERY: 怎么离线安装.deb软件包？
+2026-06-10 08:43:26,419 [INFO] [u001] QUERY: 记住我喜欢输出详细版带表格
+2026-06-10 08:43:26,444 [INFO] [u001] QUERY: 麒麟系统如何更新驱动？
+2026-06-10 08:43:26,461 [INFO] [u004] QUERY: liubei@shu.com 别记下这个邮箱
+2026-06-10 08:43:26,461 [INFO] [u004] PII detected: ['email']
+2026-06-10 08:43:26,462 [INFO] [u004] FORGET intent
