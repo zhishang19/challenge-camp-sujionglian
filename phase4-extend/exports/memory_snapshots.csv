@@ -1,0 +1,13 @@
+﻿id,uid,key,memory_value,version,scope,last_seen,source
+1,u001,output_style,输出简洁版,v2,long,2026-06-04 09:00:00,chat:S100
+2,u002,emoji_style,默认允许 emoji,v2,default,2026-06-01,config
+3,u005,meeting_style,背景、决定、待办,v1,long,2026-06-04T17:20:00+08:00,chat:S104
+4,u007,answer_style,回答需要祥细解释，每一步写原因。,v2,long,2026-06-05 09:10,ticket:K-78
+5,u004,[REDACTED],[FORGOTTEN],v1,deleted,2026-06-04 16:00:00,chat:S103
+6,u006,[REDACTED],[FORGOTTEN],v1,deleted,2026-06-04 18:10,chat:S105
+7,u001,output_style,输出简洁版,v2,long,2026-06-04 09:00:00,chat:S100
+8,u002,emoji_style,默认允许 emoji,v2,default,2026-06-01,config
+9,u005,meeting_style,背景、决定、待办,v1,long,2026-06-04T17:20:00+08:00,chat:S104
+10,u007,answer_style,回答需要祥细解释，每一步写原因。,v2,long,2026-06-05 09:10,ticket:K-78
+11,u004,[REDACTED],[FORGOTTEN],v1,deleted,2026-06-04 16:00:00,chat:S103
+12,u006,[REDACTED],[FORGOTTEN],v1,deleted,2026-06-04 18:10,chat:S105

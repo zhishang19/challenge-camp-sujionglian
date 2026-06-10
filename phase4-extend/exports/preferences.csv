@@ -1,0 +1,9 @@
+﻿id,uid,pref_key,pref_value,type,version,ttl,confidence,source,time
+1,u001,output_style,输出简洁版,explicit,v2,long,0.68,chat:S100,2026-06-04 09:00:00
+2,u002,emoji_style,默认允许 emoji,explicit,v2,default,0.40,config,2026-06-01
+3,u005,meeting_style,背景、决定、待办,explicit,v1,long,0.95,chat:S104,2026-06-04T17:20:00+08:00
+4,u007,answer_style,回答需要祥细解释，每一步写原因。,explicit,v2,long,0.82,ticket:K-78,2026-06-05 09:10
+5,u001,output_style,输出简洁版,explicit,v2,long,0.68,chat:S100,2026-06-04 09:00:00
+6,u002,emoji_style,默认允许 emoji,explicit,v2,default,0.40,config,2026-06-01
+7,u005,meeting_style,背景、决定、待办,explicit,v1,long,0.95,chat:S104,2026-06-04T17:20:00+08:00
+8,u007,answer_style,回答需要祥细解释，每一步写原因。,explicit,v2,long,0.82,ticket:K-78,2026-06-05 09:10
